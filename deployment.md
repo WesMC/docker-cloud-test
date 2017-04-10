@@ -1,4 +1,4 @@
-#Everything that is necessary on Flask Server Instance.
+# Everything that is necessary on Flask Server Instance.
 ## 1) Setup a repository on Github for Version Control
 
 ## 2) Code for web app
