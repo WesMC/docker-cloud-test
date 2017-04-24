@@ -4,5 +4,5 @@
 # http://docs.ansible.com/ansible/service_module.html
 - name: Ensure docker service is started
   service:
-    name: xxxxxxx
-    state: xxxxxxx
+    name: docker-ce
+    state: started

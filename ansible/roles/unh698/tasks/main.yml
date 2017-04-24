@@ -5,7 +5,7 @@
   pip:
     name: docker-py
 
-# When running a playbook, this step can take a while the first time 
+# When running a playbook, this step can take a while the first time
 # on a new image since it will be doing a `docker pull` in the background.
 # You don't need to make any modifications here, but you'll need to
 # read a bit on how variable precedence works with ansible
@@ -28,5 +28,5 @@
 #   http://docs.ansible.com/ansible/uri_module.html
 - name: verify that webserver is running
   uri:
-    url: xxxxxxx
+    url: "http://54.215.211.220:{{ unh698_host_port }}"
     method: GET
