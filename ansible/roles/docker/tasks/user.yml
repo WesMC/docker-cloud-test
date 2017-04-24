@@ -6,6 +6,6 @@
 #   A variable is being used here
 - name: Adding user to group docker
   user:
-    name: "{{ wcouturier }}"
+    name: "{{ ansible_user }}"
     group: docker
     append: yes
