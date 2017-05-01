@@ -4,7 +4,7 @@ from flask import Response
 from prometheus_client import Summary, Counter, Histogram
 from prometheus_client.exposition import generate_latest
 from prometheus_client.core import CollectorRegistry
-from prometheus_client.miltuprocess import MultiProcessCollector
+from prometheus_client.multiprocess import MultiProcessCollector
 
 _INF = float("inf")
 
