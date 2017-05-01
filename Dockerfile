@@ -9,6 +9,7 @@ python3-pip
 RUN pip3 install \
 Werkzeug \
 Jinja2 \
-Flask
+Flask \
+prometheus_client
 
 COPY . /src

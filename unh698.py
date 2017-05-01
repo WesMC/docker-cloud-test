@@ -1,6 +1,9 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
+from prometheus_metrics import setup_metrics
+setup_metrics(app)
+
 @app.route('/')
 def home():
     return render_template('index.html')
